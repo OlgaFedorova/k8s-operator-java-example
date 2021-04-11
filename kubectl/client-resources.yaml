@@ -1,0 +1,19 @@
+apiVersion: "ofedorova.com/v1"
+kind: Client
+metadata:
+  name: client-1
+spec:
+  firstName: "Ivan"
+  lastName: "Ivanov"
+  email: "ivanov@test.com"
+
+---
+
+apiVersion: "ofedorova.com/v1"
+kind: Client
+metadata:
+  name: client-2
+spec:
+  firstName: "Petr"
+  lastName: "Petrovich"
+  email: "petrovich@test.com"
